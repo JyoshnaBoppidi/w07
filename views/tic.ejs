@@ -1,0 +1,27 @@
+<% include header %>
+<div id="wrapper">
+    <div id="header" role="header">
+      <h2>TicTacToe</h2>
+     
+    </div>
+    <div id="row_left">
+      <div class="feld">
+        <div class="tic" id="0_0"></div>
+        <div class="tic" id="1_0"></div>
+        <div class="tic" id="2_0"></div>
+        
+        <div class="tic" id="0_1"></div>
+        <div class="tic" id="1_1"></div>
+        <div class="tic" id="2_1"></div>
+        
+        <div class="tic" id="0_2"></div>
+        <div class="tic" id="1_2"></div>
+        <div class="tic" id="2_2"></div>
+      </div>
+      <p>Player: <span id="player">x</span></p>
+      <h3>Best of 5:</h3>
+      <p>X:<span id="spieler1">0</span></p> 
+      <p>O: <span id="spieler2">0</span></p>
+      <button type="button" onClick="resetpoints(); clearen()">Full Reset!</button>
+      <% include footer %>
+      

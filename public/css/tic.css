@@ -1,0 +1,72 @@
+html {
+	font-size:100%;     
+	}
+	
+	body{
+		font-family: Verdana, Arial, sans-serif;
+		font-size:0.875rem;  
+		line-height: 1.57141285714287514285714286;
+		width: 60%;
+		margin: auto;
+	}
+	.umfliessen_floats{display: table; /* Floats umschließen */} 
+	.stop_float{
+	
+		clear:both;
+	}
+	
+	
+	
+	#wrapper{
+		
+		
+		-webkit-box-shadow: 10px 21px 64px -19px rgba(0,0,0,0.75);
+		-moz-box-shadow: 10px 21px 64px -19px rgba(0,0,0,0.75);
+		box-shadow: 10px 21px 64px -19px rgba(0,0,0,0.75);
+	}
+	#header{
+		
+		
+	
+		width: 99.2%;
+	}
+	h2{
+		color: brown;
+		text-align: center;
+	}
+	h4{
+		color:red;
+		font-size: 80%;
+		padding-left: 5px;
+		margin-bottom: -10px;
+		margin-top: 2px;
+	}
+	p{
+		padding-left: 5px;
+	}
+	#row_left{
+		width: 68.6%;
+	
+		
+		float: left;
+	}
+	
+	
+	/*TicTacTo Spielfeld */
+	
+	.feld{
+		width: 300px;
+		height: 300px;
+		padding: 0px;
+		background-color: #ccc;
+	}
+	
+	.tic{
+		height: 100px;
+		width: 33.33%;
+		border: 1px solid black;
+		float:left;
+		margin: 0px;
+		font-size: 50px;
+		text-align: center;
+	}
