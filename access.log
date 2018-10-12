@@ -121,3 +121,6 @@
 ::ffff:127.0.0.1 - - [12/Oct/2018:01:03:22 +0000] "GET /index HTTP/1.1" 304 - "http://127.0.0.1:8081/tic" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
 ::ffff:127.0.0.1 - - [12/Oct/2018:01:07:06 +0000] "GET /index HTTP/1.1" 304 - "http://127.0.0.1:8081/tic" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
 ::ffff:127.0.0.1 - - [12/Oct/2018:01:07:09 +0000] "GET /index HTTP/1.1" 304 - "http://127.0.0.1:8081/tic" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Oct/2018:01:19:45 +0000] "GET / HTTP/1.1" 200 4444 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Oct/2018:01:19:49 +0000] "GET /Contact HTTP/1.1" 304 - "http://127.0.0.1:8081/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
+::ffff:127.0.0.1 - - [12/Oct/2018:01:19:50 +0000] "GET /tic HTTP/1.1" 304 - "http://127.0.0.1:8081/Contact" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36"
